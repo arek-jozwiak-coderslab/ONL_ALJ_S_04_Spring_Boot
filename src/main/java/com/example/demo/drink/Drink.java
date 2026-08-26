@@ -1,4 +1,4 @@
-package com.example.demo;
+package com.example.demo.drink;
 
 import jakarta.persistence.Entity;
 import jakarta.persistence.GeneratedValue;
@@ -14,5 +14,6 @@ public class Drink {
     @Id
     @GeneratedValue(strategy = GenerationType.IDENTITY)
     private Long id;
-    private String title;
+    private String name;
+    private String description;
 }
